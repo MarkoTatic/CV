@@ -43,7 +43,7 @@ class App extends Component {
         "social": [
           {
             "name": "facebook",
-            "url": "http://facebook.com/tim.baker.906",
+            "url": "https://sr-rs.facebook.com/marko.tatic.3",
             "className": "fa fa-facebook"
           },
           {
@@ -53,17 +53,17 @@ class App extends Component {
           },
           {
             "name": "linkedin",
-            "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+            "url": "https://www.linkedin.com/in/marko-tatic-388aa7169/",
             "className": "fa fa-linkedin"
           },
           {
             "name": "instagram",
-            "url": "http://instagram.com/tbaker_x",
+            "url": "",
             "className": "fa fa-instagram"
           },
           {
             "name": "github",
-            "url": "http://github.com/tbakerx",
+            "url": "https://github.com/MarkoTatic",
             "className": "fa fa-github"
           }
         ]
@@ -75,13 +75,13 @@ class App extends Component {
             "school": "Zrenjanin Gymansium",
             "degree": "Graduated",
             "graduated": "Start year:2012",
-            "description": "General course."
+            "description": " "
           },
           {
             "school": "University of Technical Science Novi Sad",
             "degree": "Final year student",
             "graduated": "Start year: 2016",
-            "description": "Department of applied computer science."
+            "description": " "
           }
           
         ],
@@ -135,35 +135,30 @@ class App extends Component {
       "portfolio": {
         "projects": [
           {
-            "title": "Canadian Wanderlust",
-            "category": "My Travel Blog for my post-university travels",
+            "title": "Discover the modern implementation of design patterns with C# and .NET",
+            "category": "Udemy",
             "image": "designPatterns.jpg",
-            "url": "https://www.canadianwanderlust.com"
+            "url": ""
           },
           {
-            "title": "Fury Fighting Gear",
-            "category": "(offline now) A fighting gear company I started",
-            "image": "fury-fighting-gear.jpg",
-            "url": "http://www.timbakerdev.com"
+            "title": "Learn ASP.NET Core 5 with MVC and Entity Framework Core as we build real world Paving Company project with .NET 5",
+            "category": "Udemy",
+            "image": "2.jpg",
+            "url": ""
           },
           {
-            "title": "Original Thai Food",
-            "category": "Website I built for a restaurant I like in Thailand",
-            "image": "original-thai-food.jpg",
-            "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+            "title": "Learn the basic foundation of Dependency Injection in ASP.NET Core / .NET 5 web applications.",
+            "category": "Udemy",
+            "image": "3.jpg",
+            "url": ""
           },
           {
-            "title": "Resume Website",
-            "category": "A React based resume website template",
-            "image": "resume-website.jpg",
-            "url": "http://www.timbakerdev.com"
-          },
-          {
-            "title": "Smirkspace",
-            "category": "(MVP Only) A React and Meteor based chat University project.",
-            "image": "smirkspace.jpg",
-            "url": "http://www.smirkspace.com"
+            "title": "Mocking Techniques, Test Driven Development (TDD), and Unit Testing Legacy Code with xUnit.NET",
+            "category": "Udemy",
+            "image": "4.jpg",
+            "url": ""
           }
+          
         ]
       },
       "testimonials": {
@@ -179,6 +174,7 @@ class App extends Component {
         ]
       }
     }
+    
     this.setState({resumeData: data});
     // $.ajax({
     //   url:'/resumeData.json',
